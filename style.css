@@ -94,7 +94,7 @@
    gap: 7px; 
 }  
 
- .logocart{
+.logocart{
    width: 35x; 
    /* height: 0px; */
 
@@ -115,3 +115,146 @@ p.a2{
   scale: 1.1;
     transition: 0.1s all ease-in-out; 
 }
+
+
+/* Mobile (Extra Small): 320px - 480px
+Mobile (Small): 481px - 768px (e.g., smaller tablets)
+Laptop (Medium): 769px - 1024px (small laptops)
+Laptop/Desktop (Large): 1025px - 1200px
+Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px 
+*/
+
+
+
+@media screen and (max-width:319px) {
+ .smallbox {
+    width: 85%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    border-radius: 30px;
+}
+ h1 {
+    font-size: 60px;
+    text-align: center;
+    padding: 30px;
+    margin: auto;
+}
+ 
+  .middlebox {
+    width: 100%;
+    margin: auto;
+    min-height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+} 
+ 
+ 
+  .minibox {
+    height: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 30px;
+    border: 2px solid white;
+    box-shadow: 7px 7px 30px rgb(37, 21, 21);
+}
+p.a1 {
+    font-weight: bold;
+    font-size: 28px;
+}
+p.a2 {
+    opacity: 0.6;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+.smallbox {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    border-radius: 30px;
+}
+  h1 {
+    font-size: 60px;
+    text-align: center;
+    padding: 30px;
+    margin: auto;
+}
+ 
+  .middlebox {
+    width: 100%;
+    margin: auto;
+    min-height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+} 
+ 
+  .minibox {
+    
+    height: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 30px;
+    border: 2px solid white;
+    box-shadow: 7px 7px 30px rgb(37, 21, 21);
+}
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+ h1 {
+    font-size: 60px;
+    text-align: center;
+    padding: 30px;
+    margin: auto;
+
+}
+.minibox {
+    height: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    border-radius: 30px;
+    border: 2px solid white;
+    box-shadow: 7px 7px 30px rgb(37, 21, 21);
+}
+.smallbox {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    border-radius: 30px;
+}
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+
+}
+
+@media screen and (min-width:1025px) and (max-width:1200px) {
+
+}
+
