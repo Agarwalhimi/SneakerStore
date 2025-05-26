@@ -95,8 +95,8 @@
 }  
 
 .logocart{
-   width: 35x; 
-   /* height: 0px; */
+   width: 35px; 
+   height: 40px;
 
 } 
  
@@ -110,7 +110,10 @@ p.a2{
   font-family: 'Inter', sans-serif;
 
 }
-
+.logocart > img{
+  width: 20px;
+  height: 30px;
+}
 .logocart > img:hover{
   scale: 1.1;
     transition: 0.1s all ease-in-out; 
@@ -128,7 +131,7 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
 
 @media screen and (max-width:319px) {
  .smallbox {
-    width: 85%;
+    width: 80%;
     height: 100%;
     display: flex;
     justify-content: space-between;
@@ -168,7 +171,7 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
 }
 p.a1 {
     font-weight: bold;
-    font-size: 28px;
+    font-size: 20px;
 }
 p.a2 {
     opacity: 0.6;
@@ -179,8 +182,8 @@ p.a2 {
 
 @media screen and (min-width:320px) and (max-width:480px) {
 .smallbox {
-    width: 75%;
-    height: 100%;
+    width: 95%;
+   /* height: 50%; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -196,7 +199,7 @@ p.a2 {
 }
  
   .middlebox {
-    width: 100%;
+    width: 70%;
     margin: auto;
     min-height: 100%;
     display: flex;
@@ -206,7 +209,7 @@ p.a2 {
 } 
  
   .minibox {
-    
+    display:flex; 
     height: 100%;
     margin-bottom: 30px;
     display: flex;
@@ -219,13 +222,195 @@ p.a2 {
 }
 }
 
-@media screen and (min-width:481px) and (max-width:768px) {
- h1 {
-    font-size: 60px;
+ /* @media screen and  (max-width: 480px) { 
+   
+.middlebox {
+    width: 90%;
+    margin: auto;
+    min-height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+h1 {
+    font-size: 55px;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+}
+.smallbox {
+    /* width: 100%; */
+    /* height: 100%; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
+    /* gap: 30px; */
+    /* border-radius: 30px; 
+}
+.minibox {
+    /* height: 73%; 
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 30px;
+    border: 2px solid white;
+    box-shadow: 7px 7px 30px rgb(37, 21, 21);
+}
+.image {
+    width: 80%;
+    height: 40%;
+    border-radius: 30px;
+}
+.image>img {
+    width: 90%;
+    border-radius: 30px;
+    height: 20%;
+    object-fit: cover;
+    padding: 10px;
+}
+.details {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 20px;
+    border-radius: 30px;
+}
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+p.a1 {
+    font-weight: bold;
+    font-size: 17px;
+}
+p.a2 {
+    font-size: 12px;
+    opacity: 0.6;
+    font-family: 'Inter', sans-serif;
+}
+.logocart {
+    width: 40%;
+    /* height: 40px; */
+    /* padding: 12px 13px  15px; */
+    /* margin: auto; */
+    /* size: 10px; */
+    /* font-size: xx-small; 
+}
+/* } */
+
+@media screen and (min-width:481px) and (max-width: 641px) {
+   
+.middlebox {
+    width: 88%;
+    margin: auto;
+    min-height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+h1 {
+    font-size: 55px;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+}
+.smallbox {
+    /* width: 100%; */
+    height: 100%;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
+    /* gap: 30px; */
+    /* border-radius: 30px; */
+}
+.minibox {
+    /* height: 73%; */
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 30px;
+    border: 2px solid white;
+    box-shadow: 7px 7px 30px rgb(37, 21, 21);
+}
+.image {
+    width: 80%;
+    height: 40%;
+    border-radius: 30px;
+}
+.image>img {
+    /* width: 90%; */
+    border-radius: 30px;
+    height: 20%;
+    object-fit: cover;
+    padding: 10px;
+}
+.details {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 20px;
+    border-radius: 30px;
+}
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+p.a1 {
+    font-weight: bold;
+    font-size: 17px;
+}
+p.a2 {
+    font-size: 12px;
+    opacity: 0.6;
+    font-family: 'Inter', sans-serif;
+}
+.logocart {
+    width: 40%;
+    /* height: 40px; */
+    /* padding: 12px 13px  15px; */
+    margin: auto;
+    /* size: 10px; */
+    /* font-size: xx-small; */
+}
+
+}
+
+@media screen and (min-width: 642px) and (max-width: 769px) {
+
+.middlebox {
+    width: 90%;
+    margin: auto;
+    min-height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+   h1 {
+    /* font-size: 60%; */
     text-align: center;
     padding: 30px;
     margin: auto;
-
+}
+.smallbox {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    border-radius: 30px;
 }
 .minibox {
     height: 100%;
@@ -233,28 +418,167 @@ p.a2 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 90%;
+    width: 37%;
     border-radius: 30px;
     border: 2px solid white;
     box-shadow: 7px 7px 30px rgb(37, 21, 21);
 }
+.image {
+    width: 100%;
+    height: 60%;
+    border-radius: 30px;
+}
+.image>img {
+    width: 100%;
+    border-radius: 30px;
+    height: 100%;
+    object-fit: cover;
+    padding: 10px;
+}
+.details {
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px 12px;
+    border-radius: 30px;
+}
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+p.a1 {
+    font-weight: bold;
+    font-size: 14px;
+}
+p.a2 {
+    opacity: 0.6;
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+}
+.logocart {
+    width: 35px;
+    height: 40px;
+}
+.logocart > img {
+    width: 44px;
+    height: 39px;
+}
+}
+
+
+
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+
+  .middlebox {
+    width: 90%;
+    margin: auto;
+    min-height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+h1 {
+    font-size: 80px;
+    text-align: center;
+    padding: 30px;
+    margin: auto;
+}
 .smallbox {
-    width: 80%;
+    width: 90%;
     height: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     gap: 30px;
     border-radius: 30px;
 }
+.minibox {
+    height: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+    border-radius: 30px;
+    border: 2px solid white;
+    box-shadow: 7px 7px 30px rgb(37, 21, 21);
+}
+.image {
+    width: 100%;
+    /* height: 60%; */
+    border-radius: 30px;
+}
+.image>img {
+    width: 100%;
+    border-radius: 30px;
+    height: 100%;
+    object-fit: cover;
+    padding: 10px;
+}
+.details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px 12px;
+    border-radius: 30px;
+}
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+p.a1 {
+    font-weight: bold;
+    font-size: 13px;
+}
+p.a2 {
+    opacity: 0.6;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
 }
 
-@media screen and (min-width:769px) and (max-width:1024px) {
-
+.logocart {
+    width: 35px;
+    height: 40px;
+}
+.logocart > img {
+    width: 31px;
+    height: 30px;
+}
 }
 
 @media screen and (min-width:1025px) and (max-width:1200px) {
 
+p.a2 {
+    opacity: 0.6;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
 }
-
+.logocart > img {
+    width: 41px;
+    height: 38px;
+}
+p.a1 {
+    font-weight: bold;
+    font-size: 23px;
+}
+}
+@media screen and (max-width:1200px) {
+p.a2 {
+    opacity: 0.6;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+.a1 {
+    font-weight: bold;
+    font-size: 23px;
+}
+.logocart > img {
+    width: 41px;
+    height: 38px;
+}
+}
