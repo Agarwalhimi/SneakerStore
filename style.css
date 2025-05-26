@@ -102,13 +102,13 @@
  
 p.a1{
   font-weight: bold;
-  font-size: 22px;
+  /* font-size: 23px; */
 }
 
 p.a2{
   opacity: 0.6;
   font-family: 'Inter', sans-serif;
-
+  /* font-size: 11px; */
 }
 .logocart > img{
   width: 20px;
@@ -567,7 +567,7 @@ p.a1 {
     font-size: 23px;
 }
 }
-@media screen and (max-width:1200px) {
+@media screen and (min-width:1200px) {
 p.a2 {
     opacity: 0.6;
     font-family: 'Inter', sans-serif;
