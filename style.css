@@ -111,8 +111,10 @@ p.a2{
   /* font-size: 11px; */
 }
 .logocart > img{
-  width: 35px;
-  height: 35px;
+ 
+    width: 38px;
+    height: 40px;
+
 }
 .logocart > img:hover{
   scale: 1.1;
@@ -130,6 +132,10 @@ Desktop/High-Resolution Screens (Extra Large): 1201px - 1440px
 
 
 @media screen and (max-width:319px) {
+ .logocart > img {
+    width: 38px;
+    height: 40px;
+}
  .smallbox {
     width: 80%;
     height: 100%;
@@ -219,6 +225,10 @@ p.a2 {
     border-radius: 30px;
     border: 2px solid white;
     box-shadow: 7px 7px 30px rgb(37, 21, 21);
+}
+.logocart > img {
+    width: 38px;
+    height: 40px;
 }
 }
 
